@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brayann Adrien Ouandji · Élève-ingénieur · Développement, intégration et automatisation</title>
+  <meta name="description" content="Élève-ingénieur en dernière année à l'ESIGELEC. Développement back-end Java, web et full-stack, automatisation et IA appliquée. Stage de fin d'études de 6 mois dès février 2027.">
+  <meta name="author" content="Brayann Adrien Ouandji">
+  <meta name="theme-color" content="#0E1311">
+  <meta name="color-scheme" content="dark">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brayann Adrien Ouandji · Portfolio">
+  <meta property="og:description" content="Élève-ingénieur en dernière année. Développement back-end Java, web et full-stack, automatisation et IA appliquée. Stage dès février 2027.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+<div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+<!-- NAVIGATION -->
+<nav id="mainNav" class="navbar navbar-expand-xl fixed-top site-nav">
+  <div class="container">
+    <a class="navbar-brand brand" href="#top" aria-label="Accueil">
+      <span class="brand-mark">BO</span>
+      <span class="brand-name d-none d-sm-inline">Brayann Ouandji</span>
+    </a>
+    <div class="d-flex align-items-center gap-2 order-xl-last">
+      <div class="lang-switch" role="group" aria-label="Langue / Language">
+        <button type="button" data-lang="fr" class="is-active">FR</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Menu">
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav ms-auto align-items-xl-center">
+        <li class="nav-item"><a class="nav-link" href="#apropos" data-i18n="nav.about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience" data-i18n="nav.exp">Dernière expérience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projets" data-i18n="nav.projects">Projets</a></li>
+        <li class="nav-item"><a class="nav-link" href="#parcours" data-i18n="nav.path">Parcours</a></li>
+        <li class="nav-item"><a class="nav-link" href="#competences" data-i18n="nav.skills">Compétences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#engagement" data-i18n="nav.engagement">Engagement</a></li>
+        <li class="nav-item"><a class="nav-link" href="#extra" data-i18n="nav.extra">Extra-académique</a></li>
+        <li class="nav-item nav-social ms-xl-2">
+          <a href="https://www.linkedin.com/in/ouandji-mangoua/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/brayann-Ouandji" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+        </li>
+        <li class="nav-item ms-xl-2 me-xl-2"><a class="btn btn-accent btn-sm" href="#contact" data-i18n="nav.contact">Me contacter</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- HERO -->
+<header class="hero">
+  <div class="blueprint" aria-hidden="true"></div>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <p class="eyebrow reveal"><span class="dot"></span> <span data-i18n="hero.eyebrow">Élève-ingénieur en dernière année · stage de fin d'études de 6 mois dès février 2027</span></p>
+        <h1 class="hero-title reveal" data-i18n="hero.title">Je développe des applications solides, et je les fais <em>travailler ensemble</em>.</h1>
+        <p class="hero-lead reveal" data-i18n="hero.lead">
+          Brayann Adrien Ouandji, élève-ingénieur en dernière année à l'ESIGELEC (Ingénierie des Services du Numérique).
+          Développement back-end Java, web et full-stack d'un côté, automatisation et IA appliquée de l'autre, avec un cap :
+          devenir <strong>architecte IT</strong>. Ce qui m'anime :
+        </p>
+        <p class="rotator reveal" aria-live="polite">
+          <span class="rotator-prefix">&gt;</span>
+          <span class="rotator-word" id="rotator">le développement back-end Java</span><span class="caret"></span>
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4 reveal">
+          <a href="#experience" class="btn btn-accent btn-lg magnetic"><span data-i18n="hero.cta1">Voir ma dernière expérience</span> <i class="bi bi-arrow-down-right ms-1"></i></a>
+          <a href="assets/docs/CV_Brayann_Ouandji.pdf" class="btn btn-outline-light-2 btn-lg magnetic" download><span data-i18n="hero.cta2">Télécharger le CV</span> <i class="bi bi-download ms-1"></i></a>
+        </div>
+        <div class="social-pills reveal">
+          <a class="social-pill" href="https://www.linkedin.com/in/ouandji-mangoua/" target="_blank" rel="noopener">
+            <i class="bi bi-linkedin"></i><span><small>LinkedIn</small>in/ouandji-mangoua</span><i class="bi bi-arrow-up-right"></i>
+          </a>
+          <a class="social-pill" href="https://github.com/brayann-Ouandji" target="_blank" rel="noopener">
+            <i class="bi bi-github"></i><span><small>GitHub</small>brayann-Ouandji</span><i class="bi bi-arrow-up-right"></i>
+          </a>
+        </div>
+        <p class="hero-loc reveal"><i class="bi bi-geo-alt"></i> <span data-i18n="hero.loc">Rouen, Normandie · mobile en France et en Europe</span></p>
+      </div>
+
+      <div class="col-lg-5">
+        <figure class="portrait reveal">
+          <div class="portrait-offset" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <picture>
+              <source srcset="assets/img/portrait.webp" type="image/webp">
+              <img src="assets/img/portrait.jpg" alt="Brayann Adrien Ouandji" width="900" height="1124">
+            </picture>
+          </div>
+          <figcaption class="portrait-badge">
+            <span class="badge-dot"></span>
+            <span><strong>ESIGELEC · ISN</strong><small data-i18n="hero.badge">Promo 2027 · dernière année</small></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Java · Spring Boot</span><span>React · Next.js</span><span>C# · ASP.NET Core</span><span>Python · FastAPI</span><span>PostgreSQL</span><span>Docker</span><span>n8n</span><span>TypeScript</span><span>PHP</span><span>Mistral AI</span><span>Kubernetes</span><span>Hibernate</span><span>Prisma</span><span>CI/CD</span>
+      <span>Java · Spring Boot</span><span>React · Next.js</span><span>C# · ASP.NET Core</span><span>Python · FastAPI</span><span>PostgreSQL</span><span>Docker</span><span>n8n</span><span>TypeScript</span><span>PHP</span><span>Mistral AI</span><span>Kubernetes</span><span>Hibernate</span><span>Prisma</span><span>CI/CD</span>
+    </div>
+  </div>
+</header>
+
+<!-- À PROPOS -->
+<section id="apropos" class="section">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-5">
+        <p class="section-index reveal" data-i18n="about.index">01 · À propos</p>
+        <h2 class="section-title reveal" data-i18n="about.title">Développeur avant tout, <span class="muted-serif">avec une vision du système entier.</span></h2>
+      </div>
+      <div class="col-lg-7">
+        <div class="prose reveal">
+          <p data-i18n="about.p1">
+            J'aime écrire du code propre et maintenable : APIs REST en Java / Spring Boot ou ASP.NET Core, applications web full-stack,
+            bases de données bien modélisées. Mes projets d'école et personnels m'ont fait toucher à toute la chaîne, du back-end jusqu'à l'interface.
+          </p>
+          <p data-i18n="about.p2">
+            Mon dernier stage chez ACEP Groupe m'a apporté une autre corde : relier les applications entre elles, automatiser des processus métiers
+            et intégrer l'IA en production. C'est cette double compétence que je veux faire grandir, avec un objectif à moyen terme :
+            <strong>architecte IT / architecte solutions</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p class="label-mono mt-5 mb-3 reveal" data-i18n="about.roles">Les postes qui m'intéressent</p>
+    <div class="row g-3">
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest is-dev">
+          <i class="bi bi-filetype-java"></i>
+          <h3 data-i18n="int.1t">Développement back-end Java</h3>
+          <p data-i18n="int.1d">Spring Boot, Hibernate, APIs REST, tests JUnit. Également à l'aise en C# / ASP.NET Core.</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest is-dev">
+          <i class="bi bi-window-stack"></i>
+          <h3 data-i18n="int.2t">Développement web et full-stack</h3>
+          <p data-i18n="int.2d">React, Next.js, TypeScript, PHP : de la base de données jusqu'à l'interface.</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest">
+          <i class="bi bi-diagram-3"></i>
+          <h3 data-i18n="int.3t">Architecture et intégration</h3>
+          <p data-i18n="int.3d">Conception d'APIs, modélisation des données, interopérabilité entre applications.</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest">
+          <i class="bi bi-gear-wide-connected"></i>
+          <h3 data-i18n="int.4t">Automatisation des processus</h3>
+          <p data-i18n="int.4d">Workflows n8n, ETL, suppression des tâches répétitives.</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest">
+          <i class="bi bi-cpu"></i>
+          <h3 data-i18n="int.5t">IA appliquée</h3>
+          <p data-i18n="int.5d">Intégration de LLMs dans des processus réels, évaluation de la qualité des sorties.</p>
+        </article>
+      </div>
+      <div class="col-sm-6 col-lg-4 reveal">
+        <article class="interest">
+          <i class="bi bi-boxes"></i>
+          <h3 data-i18n="int.6t">Industrialisation et DevOps</h3>
+          <p data-i18n="int.6d">Docker, CI/CD, mise en production et maintien en conditions opérationnelles.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DERNIÈRE EXPÉRIENCE -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <div class="row g-4 g-lg-5 align-items-end mb-5">
+      <div class="col-lg-7">
+        <p class="section-index reveal" data-i18n="exp.index">02 · Dernière expérience</p>
+        <h2 class="section-title reveal" data-i18n="exp.title">Un pipeline de recrutement, de la candidature au dossier, sans intervention manuelle.</h2>
+      </div>
+      <div class="col-lg-5">
+        <dl class="case-meta reveal">
+          <div><dt data-i18n="exp.m1">Contexte</dt><dd data-i18n="exp.m1v">Stage Automatisation, IA et DevOps</dd></div>
+          <div><dt data-i18n="exp.m2">Entreprise</dt><dd>ACEP Groupe, Lyon</dd></div>
+          <div><dt data-i18n="exp.m3">Période</dt><dd data-i18n="exp.m3v">Juin à août 2026</dd></div>
+          <div><dt data-i18n="exp.m4">Rôle</dt><dd data-i18n="exp.m4v">Conception, développement, mise en production</dd></div>
+        </dl>
+      </div>
+    </div>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-4 reveal"><div class="case-block"><span class="case-step" data-i18n="exp.b1t">Problème</span><p data-i18n="exp.b1">Des candidatures dispersées entre site carrière, boîte mail RH, Indeed et LinkedIn, et un tri entièrement manuel.</p></div></div>
+      <div class="col-md-4 reveal"><div class="case-block"><span class="case-step" data-i18n="exp.b2t">Approche</span><p data-i18n="exp.b2">Développer des services (FastAPI, Spring Boot), les orchestrer avec n8n, puis scorer et produire les livrables RH automatiquement.</p></div></div>
+      <div class="col-md-4 reveal"><div class="case-block"><span class="case-step" data-i18n="exp.b3t">Résultat</span><p data-i18n="exp.b3">Environ 70 % de tâches manuelles en moins, cycle de vie de la candidature couvert de bout en bout, outil en production.</p></div></div>
+    </div>
+
+    <div class="flow reveal" id="flow">
+      <p class="label-mono flow-hint"><i class="bi bi-hand-index"></i> <span data-i18n="flow.hint">Cliquez sur un bloc pour voir le détail</span></p>
+      <div class="flow-grid">
+        <div class="flow-col">
+          <span class="flow-col-title" data-i18n="flow.c1">Sources</span>
+          <button class="flow-node" data-node="sources"><i class="bi bi-inboxes"></i> <span data-i18n="flow.n1">Site carrière</span></button>
+          <button class="flow-node" data-node="sources"><i class="bi bi-envelope"></i> <span data-i18n="flow.n2">E-mail RH (IMAP)</span></button>
+          <button class="flow-node" data-node="sources"><i class="bi bi-briefcase"></i> Indeed · LinkedIn</button>
+        </div>
+        <div class="flow-col">
+          <span class="flow-col-title" data-i18n="flow.c2">Orchestration</span>
+          <button class="flow-node is-active" data-node="n8n"><i class="bi bi-share"></i> n8n · workflows</button>
+          <button class="flow-node" data-node="state"><i class="bi bi-clock-history"></i> <span data-i18n="flow.n3">Machine à états</span></button>
+        </div>
+        <div class="flow-col">
+          <span class="flow-col-title" data-i18n="flow.c3">Traitement</span>
+          <button class="flow-node" data-node="fastapi"><i class="bi bi-file-earmark-code"></i> FastAPI · Spring Boot</button>
+          <button class="flow-node" data-node="llm"><i class="bi bi-cpu"></i> Mistral · OpenAI</button>
+        </div>
+        <div class="flow-col">
+          <span class="flow-col-title" data-i18n="flow.c4">Données</span>
+          <button class="flow-node" data-node="supabase"><i class="bi bi-database"></i> PostgreSQL</button>
+          <button class="flow-node" data-node="supabase"><i class="bi bi-lock"></i> <span data-i18n="flow.n4">Stockage privé</span></button>
+        </div>
+        <div class="flow-col">
+          <span class="flow-col-title" data-i18n="flow.c5">Sorties</span>
+          <button class="flow-node" data-node="outputs"><i class="bi bi-file-earmark-word"></i> <span data-i18n="flow.n5">Dossier .docx</span></button>
+          <button class="flow-node" data-node="outputs"><i class="bi bi-file-earmark-pdf"></i> <span data-i18n="flow.n6">Test technique</span></button>
+          <button class="flow-node" data-node="outputs"><i class="bi bi-arrow-repeat"></i> <span data-i18n="flow.n7">Relances · archivage</span></button>
+        </div>
+      </div>
+      <div class="flow-line" aria-hidden="true"><span></span></div>
+      <div class="flow-detail" id="flowDetail" aria-live="polite">
+        <h3 id="flowDetailTitle"></h3>
+        <p id="flowDetailText"></p>
+      </div>
+    </div>
+
+    <div class="row g-4 g-lg-5 mt-2">
+      <div class="col-lg-6 reveal">
+        <p class="label-mono" data-i18n="exp.dec">Décisions techniques</p>
+        <ul class="decisions" data-i18n="exp.decList">
+          <li><strong>Microservice FastAPI dédié</strong> à l'extraction PDF/DOCX et à la génération des dossiers, plutôt que de surcharger les workflows.</li>
+          <li><strong>Extraction dans chaque canal</strong> plutôt que dans des sous-workflows partagés, pour contourner les limites de données binaires du task runner n8n 2.x.</li>
+          <li><strong>Envoi de fichiers en multipart/form-data</strong> plutôt qu'en base64, après diagnostic d'un double encodage qui corrompait les PDF.</li>
+          <li><strong>Insertions PostgreSQL via un paramètre jsonb unique</strong> pour fiabiliser l'écriture en base.</li>
+          <li><strong>Stockage privé et liens temporaires signés</strong> pour protéger les CV et données des candidats.</li>
+        </ul>
+      </div>
+      <div class="col-lg-6 reveal">
+        <p class="label-mono" data-i18n="exp.phases">Livraison par phases</p>
+        <ol class="phases" data-i18n="exp.phaseList">
+          <li><span>Phase 1</span> Centralisation multi-source des candidatures dans PostgreSQL et le stockage.</li>
+          <li><span>Phase 2</span> Scoring IA sur 100 avec classement en quatre niveaux et contrôle de la qualité des sorties.</li>
+          <li><span>Phase 3</span> Tests techniques générés, relances, archivage, ouverture à tous les métiers (référentiel d'environ 100 postes).</li>
+          <li><span>Mise en prod</span> Docker, Nginx en reverse proxy, HTTPS Let's Encrypt, SSH par clé, n8n non exposé publiquement.</li>
+          <li class="is-next"><span>Phase 4</span> Cadrée : création d'offres depuis les e-mails managers, évaluation de dépôts de code, planification d'entretiens.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="stack-line reveal">
+      <span>Python</span><span>FastAPI</span><span>Java</span><span>Spring Boot</span><span>n8n</span><span>Mistral AI</span><span>OpenAI</span><span>Supabase</span><span>PostgreSQL</span><span>Docker</span><span>Nginx</span><span>Airtable</span><span>Odoo</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projets" class="section">
+  <div class="container">
+    <div class="d-flex flex-wrap justify-content-between align-items-end gap-4 mb-5">
+      <div>
+        <p class="section-index reveal" data-i18n="proj.index">03 · Projets</p>
+        <h2 class="section-title reveal mb-0" data-i18n="proj.title">Ce que j'ai construit.</h2>
+      </div>
+      <div class="filters reveal" role="tablist">
+        <button class="filter is-active" data-filter="all" data-i18n="proj.f1">Tous</button>
+        <button class="filter" data-filter="back">Back-end</button>
+        <button class="filter" data-filter="web" data-i18n="proj.f3">Web et full-stack</button>
+        <button class="filter" data-filter="ia" data-i18n="proj.f4">IA et automatisation</button>
+      </div>
+    </div>
+    <div class="row g-4" id="projectGrid"></div>
+  </div>
+</section>
+
+<!-- MODAL -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content project-modal">
+      <div class="modal-header border-0">
+        <div>
+          <p class="label-mono mb-1" id="projectModalMeta"></p>
+          <h3 class="modal-title" id="projectModalTitle"></h3>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+      <div class="modal-body" id="projectModalBody"></div>
+    </div>
+  </div>
+</div>
+
+<!-- PARCOURS -->
+<section id="parcours" class="section section-alt">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-4">
+        <p class="section-index reveal" data-i18n="path.index">04 · Parcours</p>
+        <h2 class="section-title reveal" data-i18n="path.title">D'une prépa à Yaoundé à la mise en production à Lyon.</h2>
+        <p class="text-muted-2 reveal" data-i18n="path.sub">Formation d'ingénieur généraliste, spécialisation dans les services du numérique, et deux stages techniques. Diplôme attendu en 2027.</p>
+      </div>
+      <div class="col-lg-8">
+        <ol class="timeline">
+          <li class="reveal">
+            <span class="tl-date" data-i18n="tl.1d">Juin à août 2026</span>
+            <h3 data-i18n="tl.1t">Stage Automatisation, IA et DevOps</h3>
+            <p class="tl-org">ACEP Groupe · Lyon</p>
+            <ul data-i18n="tl.1l">
+              <li>Développement de services REST en Python / FastAPI et Java / Spring Boot intégrant les API OpenAI et Mistral AI.</li>
+              <li>Ingestion LinkedIn, Indeed et e-mail dans des workflows orchestrés sous n8n, logique ETL.</li>
+              <li>Conteneurisation, mise en production sur serveur, Build et Run.</li>
+              <li>Recueil des besoins, spécifications, cahiers de recette, documentation et accompagnement à l'adoption.</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="tl-date" data-i18n="tl.2d">2024 à 2027 · dernière année en cours</span>
+            <h3 data-i18n="tl.2t">Cycle ingénieur · dominante ISN</h3>
+            <p class="tl-org">ESIGELEC · Rouen</p>
+            <ul data-i18n="tl.2l">
+              <li>Génie logiciel Java EE (Spring, Hibernate), APIs REST, stack MERN, C# / ASP.NET Core, PHP.</li>
+              <li>IA avec Python, Deep Reinforcement Learning (PROMIA), développement Android.</li>
+              <li>Docker, Kubernetes, CI/CD, tests JUnit, services Linux (serveurs web, firewall).</li>
+              <li>SQL (MySQL, Oracle, PostgreSQL) et NoSQL (MongoDB).</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="tl-date" data-i18n="tl.3d">Juin à août 2023</span>
+            <h3 data-i18n="tl.3t">Stage Développeur Back-End</h3>
+            <p class="tl-org">TechSoft Web Agency</p>
+            <ul data-i18n="tl.3l">
+              <li>Optimisation du code Java et des requêtes SQL, intégration de bases relationnelles.</li>
+              <li>Documentation technique pour la maintenance du code.</li>
+            </ul>
+          </li>
+          <li class="reveal">
+            <span class="tl-date">2022 · 2024</span>
+            <h3 data-i18n="tl.4t">Cycle préparatoire</h3>
+            <p class="tl-org">Prépa Vogt · Yaoundé</p>
+            <ul data-i18n="tl.4l">
+              <li>Président du Bureau des Étudiants et coach de l'équipe de handball féminine.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPÉTENCES -->
+<section id="competences" class="section">
+  <div class="container">
+    <div class="row g-4 g-lg-5 mb-4">
+      <div class="col-lg-6">
+        <p class="section-index reveal" data-i18n="sk.index">05 · Compétences</p>
+        <h2 class="section-title reveal" data-i18n="sk.title">Du code à la production.</h2>
+      </div>
+      <div class="col-lg-6 d-flex align-items-end">
+        <p class="text-muted-2 reveal mb-0" data-i18n="sk.sub">Le développement reste mon socle, l'automatisation et l'IA viennent s'y greffer. Survolez une catégorie pour la mettre en avant.</p>
+      </div>
+    </div>
+    <div class="row g-4 skills">
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>01</span><h3 data-i18n="sk.1">Back-end</h3></header>
+          <ul class="chips"><li>Java · Spring Boot</li><li>Hibernate · JPA</li><li>Jakarta EE</li><li>C# · ASP.NET Core</li><li>EF Core</li><li>Python · FastAPI</li><li>PHP</li><li data-i18n="sk.1a">APIs REST</li><li>JUnit</li></ul>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>02</span><h3 data-i18n="sk.2">Web et full-stack</h3></header>
+          <ul class="chips"><li>React</li><li>Next.js</li><li>TypeScript</li><li>JavaScript</li><li>Node.js</li><li>HTML · CSS</li><li>Bootstrap</li><li>Tailwind CSS</li><li>Android</li></ul>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>03</span><h3 data-i18n="sk.3">Bases de données</h3></header>
+          <ul class="chips"><li>PostgreSQL</li><li>MySQL</li><li>Oracle</li><li>MongoDB</li><li>Supabase</li><li>Prisma</li><li data-i18n="sk.3a">Modélisation</li></ul>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>04</span><h3 data-i18n="sk.4">Architecture et sécurité</h3></header>
+          <ul class="chips" data-i18n="sk.4l"><li>Conception d'APIs</li><li>Architecture événementielle</li><li>Machine à états</li><li>Spécifications techniques</li><li>Requêtes préparées</li><li>Hachage des mots de passe</li><li>Rôles et contrôle d'accès</li></ul>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>05</span><h3 data-i18n="sk.5">Automatisation et IA</h3></header>
+          <ul class="chips" data-i18n="sk.5l"><li>n8n</li><li>ETL</li><li>Airtable</li><li>Odoo</li><li>API OpenAI</li><li>Mistral AI</li><li>Prompt engineering</li><li>PyTorch · DQN</li><li>ROS2</li></ul>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4 reveal">
+        <article class="skill-card">
+          <header><span>06</span><h3 data-i18n="sk.6">Industrialisation et méthodes</h3></header>
+          <ul class="chips"><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>Git</li><li>Linux</li><li>Nginx</li><li>Vercel</li><li>Agile · Scrum</li><li>JIRA</li></ul>
+        </article>
+      </div>
+    </div>
+
+    <div class="row g-4 mt-4">
+      <div class="col-md-4 reveal">
+        <div class="mini-card">
+          <p class="label-mono" data-i18n="sk.lang">Langues</p>
+          <ul class="plain" data-i18n="sk.langList">
+            <li><span>Français</span><span>Langue maternelle</span></li>
+            <li><span>Anglais</span><span>B2 · TOEIC 840</span></li>
+            <li><span>Japonais</span><span>Débutant</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div class="mini-card">
+          <p class="label-mono">Certifications</p>
+          <ul class="plain">
+            <li><span>Create AI Assistants with ChatGPT</span></li>
+            <li><span>Scrum: The Basics</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 reveal">
+        <div class="mini-card">
+          <p class="label-mono" data-i18n="sk.q">Qualités</p>
+          <p class="mb-0" data-i18n="sk.qText">Rigueur, capacité d'analyse, autonomie, adaptabilité, esprit d'équipe et goût du partage (documentation, accompagnement des utilisateurs).</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENGAGEMENT -->
+<section id="engagement" class="section section-forest">
+  <div class="container">
+    <div class="row g-4 g-lg-5">
+      <div class="col-lg-5">
+        <p class="section-index reveal" data-i18n="eng.index">06 · Engagement</p>
+        <h2 class="section-title reveal" data-i18n="eng.title">Fédérer, organiser, transmettre.</h2>
+        <p class="reveal text-soft" data-i18n="eng.sub">Travailler en équipe et aligner des personnes, je m'y entraîne depuis plusieurs années, en dehors du code.</p>
+        <div class="interests-list reveal" data-i18n="eng.int">
+          <span>Veille IA</span><span>Handball</span><span>Football et data</span><span>Création vidéo</span><span>Voyage</span><span>Bricolage</span>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-3">
+          <div class="col-sm-6 reveal"><article class="engage"><span class="engage-date" data-i18n="eng.1d">Depuis mai 2025</span><h3 data-i18n="eng.1t">Vice-Président du BDE</h3><p>ESIGELEC · Rouen</p></article></div>
+          <div class="col-sm-6 reveal"><article class="engage"><span class="engage-date" data-i18n="eng.2d">Depuis oct. 2024</span><h3 data-i18n="eng.2t">Ambassadeur ESIGELEC</h3><p data-i18n="eng.2p">Représentation de l'école auprès des futurs étudiants</p></article></div>
+          <div class="col-sm-6 reveal"><article class="engage"><span class="engage-date">2023 · 2024</span><h3 data-i18n="eng.3t">Président du BDE</h3><p>Prépa Vogt · Yaoundé</p></article></div>
+          <div class="col-sm-6 reveal"><article class="engage"><span class="engage-date">2022 · 2024</span><h3 data-i18n="eng.4t">Coach handball féminin</h3><p>Prépa Vogt · Yaoundé</p></article></div>
+          <div class="col-12 reveal"><article class="engage"><span class="engage-date">2022 · 2023</span><h3 data-i18n="eng.5t">Bénévole · ELANS</h3><p data-i18n="eng.5p">Association de solidarité internationale pour le développement participatif et durable des populations du Cameroun.</p></article></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXTRA-ACADÉMIQUE -->
+<section id="extra" class="section">
+  <div class="container">
+    <div class="row g-4 g-lg-5 mb-5">
+      <div class="col-lg-6">
+        <p class="section-index reveal" data-i18n="ex.index">07 · Extra-académique</p>
+        <h2 class="section-title reveal" data-i18n="ex.title">En dehors de l'école, je construis et je travaille aussi.</h2>
+      </div>
+      <div class="col-lg-6 d-flex align-items-end">
+        <p class="text-muted-2 reveal mb-0" data-i18n="ex.sub">Un projet développé pour de vrais utilisateurs, et des emplois qui financent mes études tout en m'apprenant la relation client, le rythme et le travail en équipe.</p>
+      </div>
+    </div>
+
+    <p class="label-mono reveal" data-i18n="ex.proj">Projet personnel</p>
+    <div class="row g-4 mb-5" id="extraGrid"></div>
+
+    <p class="label-mono reveal mt-2" data-i18n="ex.jobs">Emplois étudiants</p>
+    <div class="row g-3 jobs">
+      <div class="col-md-6 reveal">
+        <article class="job">
+          <div class="job-head"><span class="job-date" data-i18n="job.1d">Sept. à oct. 2026</span><span class="job-place"><i class="bi bi-geo-alt"></i> Rouen</span></div>
+          <h3 data-i18n="job.1t">Plongeur</h3>
+          <p class="job-org">Novotel Rouen</p>
+          <p data-i18n="job.1p">Nettoyage et rangement de la vaisselle, entretien du poste de travail en cuisine professionnelle.</p>
+        </article>
+      </div>
+      <div class="col-md-6 reveal">
+        <article class="job">
+          <div class="job-head"><span class="job-date" data-i18n="job.2d">Sept. 2025 à févr. 2026</span><span class="job-place"><i class="bi bi-geo-alt"></i> Saint-Étienne-du-Rouvray</span></div>
+          <h3 data-i18n="job.2t">Vendeur polyvalent</h3>
+          <p class="job-org">Primark</p>
+          <p data-i18n="job.2p">Conseil client, gestion des rayons et travail en équipe pendant les périodes de forte affluence.</p>
+        </article>
+      </div>
+      <div class="col-md-6 reveal">
+        <article class="job">
+          <div class="job-head"><span class="job-date" data-i18n="job.3d">Mai à juil. 2023</span><span class="job-place"><i class="bi bi-geo-alt"></i> Douala, Cameroun</span></div>
+          <h3 data-i18n="job.3t">Serveur</h3>
+          <p class="job-org">Krystal Palace</p>
+          <p data-i18n="job.3p">Accueil d'une clientèle internationale, préparation de boissons et cocktails selon les fiches techniques et normes d'hygiène, mise en place de salle.</p>
+        </article>
+      </div>
+      <div class="col-md-6 reveal">
+        <article class="job">
+          <div class="job-head"><span class="job-date" data-i18n="job.4d">Juin à août 2022</span><span class="job-place"><i class="bi bi-geo-alt"></i> Yaoundé, Cameroun</span></div>
+          <h3 data-i18n="job.4t">Caissier et vendeur</h3>
+          <p class="job-org" data-i18n="job.4o">Paule Gaby, maison de parfum</p>
+          <p data-i18n="job.4p">Gestion des encaissements, accueil et conseil client, mise en place des promotions.</p>
+        </article>
+      </div>
+    </div>
+
+    <div class="takeaways reveal">
+      <span class="label-mono" data-i18n="ex.learn">Ce que ces expériences m'ont appris</span>
+      <ul data-i18n="ex.learnList"><li>Comprendre le besoin d'un client</li><li>Tenir le rythme sous pression</li><li>Respecter un process à la lettre</li><li>Travailler en équipe</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-alt contact">
+  <div class="container">
+    <div class="row g-4 g-lg-5 align-items-center">
+      <div class="col-lg-7">
+        <p class="section-index reveal" data-i18n="ct.index">08 · Contact</p>
+        <h2 class="contact-title reveal" data-i18n="ct.title">Vous recrutez un stagiaire ingénieur pour 2027 ? <em>Parlons-en.</em></h2>
+        <p class="lead-2 reveal" data-i18n="ct.text">
+          Je recherche un <strong>stage de fin d'études de 6 mois à partir de février 2027</strong>, en France ou en Europe.
+          Le développement m'intéresse autant que le reste : <strong>back-end Java, web ou full-stack</strong>,
+          mais aussi architecture, intégration, automatisation, IA appliquée ou industrialisation.
+        </p>
+      </div>
+      <div class="col-lg-5">
+        <div class="contact-card reveal">
+          <p class="label-mono">E-mail</p>
+          <div class="email-row">
+            <a href="mailto:brayann.ouandji@groupe-esigelec.org" class="email-link">brayann.ouandji@groupe-esigelec.org</a>
+            <button class="copy-btn" id="copyEmail" data-email="brayann.ouandji@groupe-esigelec.org" aria-label="Copy e-mail"><i class="bi bi-clipboard"></i></button>
+          </div>
+          <span class="copy-feedback" id="copyFeedback" role="status"></span>
+          <hr>
+          <a class="contact-line" href="https://www.linkedin.com/in/ouandji-mangoua/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> linkedin.com/in/ouandji-mangoua <i class="bi bi-arrow-up-right ms-auto"></i></a>
+          <a class="contact-line" href="https://github.com/brayann-Ouandji" target="_blank" rel="noopener"><i class="bi bi-github"></i> github.com/brayann-Ouandji <i class="bi bi-arrow-up-right ms-auto"></i></a>
+          <a class="contact-line" href="assets/docs/CV_Brayann_Ouandji.pdf" download><i class="bi bi-file-earmark-person"></i> <span data-i18n="ct.cv">CV au format PDF</span> <i class="bi bi-download ms-auto"></i></a>
+          <span class="contact-line static"><i class="bi bi-car-front"></i> <span data-i18n="ct.licence">Permis B · basé à Rouen</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+    <span>© <span id="year"></span> Brayann Adrien Ouandji</span>
+    <span class="footer-social">
+      <a href="https://www.linkedin.com/in/ouandji-mangoua/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/brayann-Ouandji" target="_blank" rel="noopener"><i class="bi bi-github"></i> GitHub</a>
+    </span>
+    <a href="#top" class="to-top"><span data-i18n="ft.top">Retour en haut</span> <i class="bi bi-arrow-up"></i></a>
+  </div>
+</footer>
+
+<script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
