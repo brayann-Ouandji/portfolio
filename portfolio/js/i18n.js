@@ -143,7 +143,7 @@ const I18N_EN = {
   "eng.sub":
     "Teamwork and getting people aligned: I have been practising this for years, outside of code.",
   "eng.int":
-    "<span>AI watch</span><span>Handball</span><span>Football and data</span><span>Video creation</span><span>Travel</span><span>DIY</span>",
+    "<span>Chess</span><span>Handball</span><span>Football</span><span>Video creation</span><span>Video Game</span><span>DIY</span><span>Tennis</span>",
   "eng.1d": "Since May 2025",
   "eng.1t": "Student union vice-president",
   "eng.2d": "Since Oct. 2024",
@@ -166,10 +166,10 @@ const I18N_EN = {
   "ex.video.text":
     "From scripting to editing, I create short humorous videos about tech and other topics, as well as film and TV series analysis. I also produced a video in partnership with <strong>Trilio</strong>, an AI tool for writing LinkedIn posts.",
   "ex.jobs": "Student jobs",
-  "job.1d": "Sept. to Oct. 2026",
-  "job.1t": "Kitchen porter",
+  "job.1d": "Since Oct. 2026",
+  "job.1t": "Kitchen porter & kitchen assistant",
   "job.1p":
-    "Washing and storing dishes, keeping the workstation clean in a professional kitchen.",
+    "Cleaning and putting away tableware, preparing and plating dishes (starters and desserts), and maintaining the workstation in a professional kitchen.",
   "job.2d": "Sept. 2025 to Feb. 2026",
   "job.2t": "Sales assistant",
   "job.2p":
